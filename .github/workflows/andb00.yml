@@ -5,7 +5,7 @@ jobs:
     name: Test job for andb00
     runs-on: ubuntu-latest
     steps:
-      - name:
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Java
